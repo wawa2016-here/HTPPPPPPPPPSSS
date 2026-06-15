@@ -7,4 +7,8 @@ function initGame() {
             initGame(); 
             console.log("Started");  
 document.getElementById("new").textContent = text; 
+
+        
+        
+        
         }; 
