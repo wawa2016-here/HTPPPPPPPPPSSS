@@ -7,13 +7,7 @@ var gameAttacksEnemy = ["Dungon_Power50", "underpower_Power40"];
 let text = "Game under This text";
 
 function initGame() { 
-  console.log("Start")
-}
-
-const btn = document.getElementById('gameBtn');  
-btn.onclick = function() { 
-  initGame(); 
-  console.log("Started Game");  
+ console.log("Started Game");  
   document.getElementById("new").textContent = text; 
   setInterval(() => { 
  window.addEventListener("keydown", function(event) {
@@ -52,5 +46,11 @@ btn.onclick = function() {
 },4); 
 
 });
+}
+
+const btn = document.getElementById('gameBtn');  
+btn.onclick = function() { 
+  initGame(); 
+  
 };
 
