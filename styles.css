@@ -1,9 +1,25 @@
 #game-health-enemy {
   text-align: right;
+  backround-color: red;
+  color: white;
 }
 #game-attacks-enemy {
   text-align: right;
+backround-color: red;
+color: white;
 }
 #game-stats {
   text-align: center;
+  backround-color: blue;
+  color: orange;
+}
+#game-health-player {
+  text-align: left;
+  color: white;
+  backround-color: green;
+}
+#game-attacks-player {
+  backround-color: green;
+  color: white;
+  text-align: left;
 }
