@@ -1,1 +1,10 @@
-<!--nothing-->
+#game-health-enemy {
+  text-align: right;
+}
+#game-attacks-enemy {
+  text-align: right;
+}
+#game-stats {
+  vertical-align: top;
+  text-align: center;
+}
