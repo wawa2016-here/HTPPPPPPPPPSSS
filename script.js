@@ -15,8 +15,7 @@ btn.onclick = function() {
   initGame(); 
   console.log("Started Game");  
   document.getElementById("new").textContent = text; 
-};
-setInterval(() => { 
+  setInterval(() => { 
  window.addEventListener("keydown", function(event) {
   if (event.key === "1") {
     gameHealthEnemy -= 350;
@@ -53,3 +52,5 @@ setInterval(() => {
 },4); 
 
 });
+};
+
