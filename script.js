@@ -43,7 +43,7 @@ function initGame() {
     document.getElementById("game-health-player").textContent = "Player health: " + gameHealthPlayer;
     document.getElementById("game-health-enemy").textContent = "Enemy health: " + gameHealthEnemy;
     document.getElementById("game-attacks-player").textContent = "Player attacks: " + gameAttacksPlayer;
-    document.getElementById("game-attacks-enemy").textContent = "Enemy Attacks: " gameAttacksEnemy;
+    document.getElementById("game-attacks-enemy").textContent = "Enemy Attacks: " + gameAttacksEnemy;
   }, 4); 
 }
 
