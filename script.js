@@ -40,10 +40,10 @@ function initGame() {
 
   setInterval(() => { 
     document.getElementById("game-stats").textContent = gameStats;
-    document.getElementById("game-health-player").textContent = gameHealthPlayer;
-    document.getElementById("game-health-enemy").textContent = gameHealthEnemy;
-    document.getElementById("game-attacks-player").textContent = gameAttacksPlayer;
-    document.getElementById("game-attacks-enemy").textContent = gameAttacksEnemy;
+    document.getElementById("game-health-player").textContent = "Player health: " + gameHealthPlayer;
+    document.getElementById("game-health-enemy").textContent = "Enemy health: " + gameHealthEnemy;
+    document.getElementById("game-attacks-player").textContent = "Player attacks: " + gameAttacksPlayer;
+    document.getElementById("game-attacks-enemy").textContent = "Enemy Attacks: " gameAttacksEnemy;
   }, 4); 
 }
 
