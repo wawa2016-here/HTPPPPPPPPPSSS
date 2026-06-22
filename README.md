@@ -1,2 +1,2 @@
-The link is www.megaproject.com
+The link is www.megaprojectgithub.com
 so use this thing how ever you want
